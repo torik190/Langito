@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: var(--text);
+
+  --background: #eee;
+  --side: #fff;
+  --text: #000;
+  --text-hover: #555;
+  --special: #9de;
+  --special-hover: #8cd;
+  --card: #fff;
+  --card-hover: #eee;
+}
+
+body.Dark {
+  --background: #202020;
+  --side: #303030;
+  --text: #fff;
+  --text-hover: #aaa;
+  --card: #eee;
+  --card-hover: #ddd;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--text-hover);
+}
+
+.Side {
+  width: 1000px;
+  height: fit-content;
+  min-height: calc(100vh - 401px);
+  margin: 70px auto 0 auto;
+  padding: 50px;
+  background-color: var(--side);
+  border-radius: 25px;
+}
+
+.Emergence {
+  animation-name: emergence;
+  animation-duration: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes emergence {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+.SmallDevicesOnly {
+  display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .Side {
+    width: calc(100% - 100px);
+    border-radius: 0;
+  }
+}

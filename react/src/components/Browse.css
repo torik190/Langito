@@ -1,0 +1,108 @@
+#BrowseSide h1 {
+    margin: 0;
+}
+
+#BrowseSide h1.AnotherHeader {
+    margin: 100px 0 0 0;
+}
+
+#BrowseSide h2 {
+    margin: 55px 0 0 0;
+    animation-name: emergence;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+
+#BrowseSide p {
+    max-width: 600px;
+    margin-left: 20px;
+    animation-name: emergence;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+}
+
+#BrowseSide hr {
+    visibility: hidden;
+    margin: 0;
+}
+
+.BrowseList {
+    margin: 1em 0 0 0;
+}
+
+.BrowseList li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    animation-name: emergence;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-fill-mode: backwards;
+}
+
+.Lesson0 {
+    color: #080;
+    font-style: italic;
+}
+.Lesson0:hover {
+    color: #3b3;
+}
+body.Dark .Lesson0 {
+    color: #afa;
+}
+body.Dark .Lesson0:hover {
+    color: #8c8;
+}
+
+.Lesson1 {
+    color: #008;
+}
+.Lesson1:hover {
+    color: #33b;
+}
+body.Dark .Lesson1 {
+    color: #aaf;
+}
+body.Dark .Lesson1:hover {
+    color: #88c;
+}
+
+.Lesson2 {
+    color: #800;
+    font-weight: bold;
+}
+.Lesson2:hover {
+    color: #b33;
+}
+body.Dark .Lesson2 {
+    color: #faa;
+}
+body.Dark .Lesson2:hover {
+    color: #c88;
+}
+
+@media only screen and (max-width: 600px) {
+    #BrowseSide {
+        text-align: center;
+    }
+
+    #BrowseSide h1 {
+        font-size: 24px;
+    }
+
+    #BrowseSide h2 {
+        font-size: 20px;
+        color: var(--special);
+    }
+    
+    #BrowseSide p {
+        margin-left: 0;
+    }
+
+    #BrowseSide ul {
+        padding-inline-start: 0;
+    }
+}

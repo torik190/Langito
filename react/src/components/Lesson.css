@@ -1,0 +1,340 @@
+#LessonSide h1 {
+  margin: 0 0 30px 0;
+}
+
+#LessonSide > button {
+  width: 70px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: var(--special);
+  border: none;
+  border-radius: 20px;
+  color: var(--side);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.LessonSide > button:hover {
+  background-color: var(--special-hover);
+}
+
+/*---------- type = 0 ----------*/
+.MarkDown {
+  line-height: 24px;
+}
+
+.MarkDown em {
+  color: #aaa;
+}
+
+.MarkDown h2 {
+  animation-name: emergence;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+}
+
+.MarkDown h4 {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: normal;
+  animation-name: emergence;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0.4s;
+  animation-fill-mode: backwards;
+}
+
+.MarkDown p {
+  max-width: 600px;
+  margin-left: 20px;
+  animation-name: emergence;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0.2s;
+  animation-fill-mode: backwards;
+}
+
+.MarkDown table {
+  min-width: 200px;
+  margin-top: 25px;
+  border-collapse: collapse;
+  animation-name: emergence;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0.4s;
+  animation-fill-mode: backwards;
+}
+
+.MarkDown td, .MarkDown th {
+  padding: 5px;
+  border: 1px solid #888;
+}
+
+.MarkDown th {
+  background-color: #ddd;
+}
+body.Dark .MarkDown th {
+  background-color: #222;
+}
+
+.MarkDown td {
+  background-color: #eee;
+}
+body.Dark .MarkDown td {
+  background-color: #111;
+}
+
+/*---------- type = 1 ----------*/
+
+.Postscript {
+  margin: 0 0 30px 0;
+  color: gray;
+}
+
+.GameMode {
+  width: calc(100% - 50px);
+  margin: 15px 0 0 0;
+  padding: 25px;
+  background-color: #9de3;
+  border-radius: 25px;
+  text-align: left;
+  animation-name: emergence;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: backwards;
+}
+
+.GameMode h2 {
+  height: 40px;
+  margin: 0;
+  float: left;
+  line-height: 40px;
+}
+
+.GameMode button {
+  width: 70px;
+  height: 40px;
+  float: right;
+  background-color: var(--special);
+  border: none;
+  border-radius: 20px;
+  color: var(--side);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.GameMode button:hover {
+  background-color: var(--special-hover);
+}
+
+.GameMode p {
+  margin: 60px 0 0 0;
+  color: gray;
+}
+
+/*----- gameMode != undefined -----*/
+
+#CardsContainer {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#CardsContainer > button {
+  width: 46%;
+  height: 50px;
+  margin: 20px 2%;
+  float: left;
+  background-color: var(--special);
+  box-shadow: 0 2px 10px #0003;
+  border: none;
+  border-radius: 25px;
+  color: var(--side);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#CardsContainer > button:hover {
+  background-color: var(--special-hover);
+}
+
+#CardsContainer > button.disabled, #CardsContainer > button.disabled:hover {
+  opacity: 50%;
+  background-color: var(--special);
+  cursor: default;
+}
+
+#ProgressBar {
+  width: 96%;
+  height: 10px;
+  margin: 20px 2%;
+  clear: both;
+  background-color: var(--card);
+  box-shadow: 0 2px 10px #0003;
+  border-radius: 5px;
+}
+
+#ProgressBar > div {
+  height: 10px;
+  background-color: var(--special);
+  border-radius: 5px;
+  transition: width 1s;
+}
+
+/*----- gameMode = cards -----*/
+
+.Card {
+  min-height: 198px;
+  margin: 0 2%;
+  padding: 25px;
+  background-color: var(--card);
+  box-shadow: 0 4px 8px #0002, 0 6px 20px 0 #0002;
+  border-radius: 25px;
+  color: #000;
+  text-align: center;
+}
+
+.Card h6 {
+  margin: 10px;
+  color: #888a;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.Card p {
+  margin: 10px;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.Card hr {
+  margin: 20px;
+  border: 1px solid #bbb;
+}
+
+/*----- gameMode = flashcards -----*/
+
+.Flashcard {
+  cursor: pointer;
+}
+
+.Flashcard:hover {
+  background-color: var(--card-hover);
+}
+
+.Flashcard h6, .LastCard h6 {
+  margin-top: 60px;
+}
+
+.Flip {
+  animation-name: flip;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+@keyframes flip {
+from {transform: perspective(1000px) rotate3d(0, 1, 0, 60deg);}
+50% {transform: perspective(1000px) rotate3d(0, 1, 0, 90deg);}
+50.001% {transform: perspective(1000px) rotate3d(0, 1, 0, -90deg);}
+to {transform: perspective(1000px) rotate3d(0, 1, 0, 0deg);}
+}
+
+/*----- gameMode = quiz -----*/
+
+.Answers {
+  margin: 20px 2% 0 2%;
+  padding: 25px 100px;
+  background-color: var(--card);
+  box-shadow: 0 4px 8px #0002, 0 6px 20px 0 #0002;
+  border-radius: 25px;
+  list-style-type: upper-alpha;
+}
+
+.Answers li {
+  width: fit-content;
+  margin: 10px;
+  font-size: 24px;
+  line-height: 37px;
+  transition: color 0.15s;
+}
+
+.Answer {
+  color: #000;
+  cursor: pointer;
+}
+
+.Answer:hover {
+  color: #555;
+}
+
+.Correct {
+  color: #4a4;
+}
+
+.Wrong {
+  color: #a44;
+}
+
+.Other {
+  color: #bbb;
+}
+
+/*----- gameMode = writting -----*/
+
+.Writting {
+  margin: 20px 2% 0 2%;
+  padding: 50px 100px;
+  background-color: var(--card);
+  box-shadow: 0 4px 8px #0002, 0 6px 20px 0 #0002;
+  border-radius: 25px;
+}
+
+#WrittingInput {
+  width: 96%;
+  height: 50px;
+  margin: 20px 2% 0 2%;
+  background-color: var(--card);
+  border-radius: 25px;
+  border: none;
+  box-shadow: 0 4px 8px #0002, 0 6px 20px 0 #0002;
+  text-align: center;
+  font-size: 20px;
+}
+
+#WrittingInput:focus {
+  outline: none;
+}
+
+/*---------- media ----------*/
+
+@media only screen and (max-width: 600px) {
+  #LessonSide {
+      text-align: center;
+  }
+
+  #LessonSide h1 {
+      font-size: 24px;
+  }
+
+  .MarkDown h2 {
+      font-size: 20px;
+  }
+
+  .MarkDown table {
+    min-width: 150px;
+    margin: 25px auto;
+  }
+
+  .Card p {
+    font-size: 20px;
+  }
+
+  .Answers {
+    padding: 25px 0 25px 50px;
+  }
+
+  .Answers li {
+    font-size: 20px;
+  }
+}

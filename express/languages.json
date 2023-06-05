@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Angielski",
+        "code": "en",
+        "classes": [
+            {"name": "Klasa 1", "code": "en-1"},
+            {"name": "Klasa 2", "code": "en-2"},
+            {"name": "Klasa 3", "code": "en-3"},
+            {"name": "Klasa 4", "code": "en-4"},
+            {"name": "Klasa 5", "code": "en-5"},
+            {"name": "Klasa 6", "code": "en-6"},
+            {"name": "Klasa 7", "code": "en-7"},
+            {"name": "Klasa 8", "code": "en-8"}
+        ]
+    },
+    {
+        "name": "Niemiecki",
+        "code": "de",
+        "classes": [
+            {"name": "Klasa 7", "code": "de-7"},
+            {"name": "Klasa 8", "code": "de-8"}
+        ]
+    },
+    {
+        "name": "Francuski",
+        "code": "fr",
+        "classes": [
+            {"name": "Klasa 7", "code": "fr-7"},
+            {"name": "Klasa 8", "code": "fr-8"}
+        ]
+    },
+    {
+        "name": "Hiszpański",
+        "code": "es",
+        "classes": [
+            {"name": "Klasa 7", "code": "es-7"},
+            {"name": "Klasa 8", "code": "es-8"}
+        ]
+    },
+    {
+        "name": "Rosyjski",
+        "code": "ru",
+        "classes": [
+            {"name": "Klasa 7", "code": "ru-7"},
+            {"name": "Klasa 8", "code": "ru-8"}
+        ]
+    },
+    {
+        "name": "Włoski",
+        "code": "it",
+        "classes": [
+            {"name": "Klasa 7", "code": "it-7"},
+            {"name": "Klasa 8", "code": "it-8"}
+        ]
+    }
+]

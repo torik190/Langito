@@ -1,0 +1,82 @@
+[
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Alfabet",
+        "code": "en-1-1-1",
+        "type": 0,
+        "value": "# Alfabet angielski\r\n\r\nAngielski alfabet składa się z 26 liter z czego 23 są takie same jak w alfabecie polskim. Pozostałe litery to Q, V oraz X. Litery oraz ich wymowę przedstawia poniższa tabela.\r\n\r\n|Litera|Czytaj|\r\n|:-:|:-:|\r\n|A|*a*|\r\n|B|*bi*|\r\n|C|*si*|\r\n|D|*di*|\r\n|E|*i*|\r\n|F|*ef*|\r\n|G|*d\u017Ci*|\r\n|H|*ejcz*|\r\n|I|*aj*|\r\n|J|*d\u017Cej*|\r\n|K|*kej*|\r\n|L|*el*|\r\n|M|*em*|\r\n|N|*en*|\r\n|O|*o\u0142*|\r\n|P|*pi*|\r\n|**Q**|*kju*|\r\n|R|*ar*|\r\n|S|*es*|\r\n|T|*ti*|\r\n|U|*ju*|\r\n|**V**|*wi*|\r\n|W|*dablju*|\r\n|**X**|*eks*|\r\n|Y|*\u0142aj*|\r\n|Z|*zed*|"
+    },
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Podstawowe zwroty",
+        "code": "en-1-1-2",
+        "type": 1,
+        "value": {"Dzień dobry": "Good morning", "Dowidzenia": "Goodbye", "Nazywam się": "My name is", "Tak": "Yes", "Nie": "No"}
+    },
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Przybory szkolne",
+        "code": "en-1-1-3",
+        "type": 1,
+        "value": {"Długopis": "Pen", "Ołówek": "Pencil", "Gumka": "Rubber", "Linijka": "Ruler", "Nożyczki": "Scissors", "Zeszyt": "Notebook", "Temperówka": "Pencil sharpener", "Piórnik": "Pencil case"}
+    },
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Kolory",
+        "code": "en-1-1-4",
+        "type": 1,
+        "value": {"Czerwony": "Red", "Zielony": "Green", "Niebieski": "Blue", "Żółty": "Yellow", "Fioletowy": "Purple", "Czarny": "Black", "Biały": "White", "Szary": "Gray", "Różowy": "Pink", "Brązowy": "Brown"}
+    },
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Czasownik „is”",
+        "code": "en-1-1-5",
+        "type": 0,
+        "value": "# Czasownik \u201Eis\u201D\r\n\r\nCzasownik \u201Eis\u201D jest odmian\u0105 czasownika \u201Ebe\u201D (\u201Eby\u0107\u201D) i oznacza \u201Ejest\u201D. U\u017Cywa si\u0119 go tak samo jak w j\u0119zyku polskim i ma on nast\u0119puj\u0105c\u0105 sk\u0142adnię:\r\n\r\n#### *podmiot* **is** *dope\u0142nienie*\r\n\r\n## Przyk\u0142ady:\r\n\r\n|Zdanie|T\u0142umaczenie|\r\n|-|-|\r\n|Pen **is** blue.|D\u0142ugopis **jest** niebieski.|\r\n|Rubber **is** white.|Gumka **jest** bia\u0142a.|\r\n|Ruler **is** brown.|Linijka **jest** br\u0105zowa.|"
+    },
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Zdania z czasownikiem „is”",
+        "code": "en-1-1-6",
+        "type": 1,
+        "value": {"Długopis jest czerwony": "Pen is red", "Ołówek jest żółty": "Pencil is yellow", "Linijka jest niebieska": "Ruler is blue", "Zeszyt jest zielony": "Notebook is green", "Piórnik jest różowy": "Pencil case is pink", "Długopis jest zielony": "Pen is green", "Ołówek jest czerwony": "Pencil is red", "Linijka jest żółta": "Ruler is yellow", "Zeszyt jest pomarańczowy": "Notebook is orange", "Temperówka jest niebieska": "Pencil sharpener is blue", "Długopis jest niebieski": "Pen is blue", "Ołówek jest pomarańczowy": "Pencil is orange", "Linijka jest biała": "Ruler is white", "Zeszyt jest różowy": "Notebook is pink", "Piórnik jest czerwony": "Pencil case is red"}
+    },
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Przymiotniki określające emocje",
+        "code": "en-1-1-7",
+        "type": 1,
+        "value": {"Szczęśliwy": "Happy", "Smutny": "Sad", "Wściekły": "Angry", "Przestraszony": "Scared", "Znudzony": "Bored", "Zmęczony": "Tired"}
+    },
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Zaimki i odmiana słowa „be”",
+        "code": "en-1-1-8",
+        "type": 0,
+        "value": "# Zaimki i odmiana s\u0142owa \u201Ebe\u201D\r\n\r\nNie zawsze m\u00F3wimi do kogo\u015B po imieniu, czasami m\u00F3wimy \u201Ety\u201D albo \u201Eon\u201D. To s\u0105 w\u0142a\u015Bnie zaimki, czyli s\u0142owa pozwalaj\u0105ce nam skr\u00F3ci\u0107 swoj\u0105 wypowied\u017A. Podobnie w j\u0119zyku angielskim wyst\u0119puj\u0105 takie s\u0142owa, a s\u0105 to:\r\n\r\n#### \u201EI\u201D, \u201EYou\u201D, \u201EHe\u201D, \u201EShe\u201D, \u201EIt\u201D, \u201EWe\u201D i \u201EThey\u201D\r\n\r\nKa\u017Cde z nich ma odpowiadaj\u0105c\u0105 mu odmianę s\u0142owa \u201Ebe\u201D. Zaimki wraz z czasownikiem \u201Ebe\u201D przedstawia poni\u017Csza tabela.\r\n\r\n|Zaimek z czasownikiem|T\u0142umaczenie|\r\n|-|-|\r\n|I am|Ja jestem|\r\n|You are|Ty jeste\u015B|\r\n|He is|On jest|\r\n|She is|Ona jest|\r\n|It is|To jest|\r\n|We are|My jeste\u015Bmy|\r\n|You are|Wy jeste\u015Bcie|\r\n|They are|Oni s\u0105|\r\n|They are|One s\u0105|"
+    },
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Zdania z czasownikiem „be”",
+        "code": "en-1-1-9",
+        "type": 1,
+        "value": {"Ja jestem szczęśliwy": "I am happy", "On jest smutny": "He is sad", "Ty jesteś wściekły": "You are angry", "Oni są przestraszeni": "They are scared", "Ona jest znudzona": "She is bored", "My jesteśmy zmęczeni": "We are tired", "Ty jesteś szczęśliwy": "You are happy", "Wy jesteście smutny": "You are sad", "Ja jestem wściekły": "I am angry", "On jest przestraszony": "He is scared", "My jesteśmy znudzeni": "We are bored", "Ona jest zmęczona": "She is tired"}
+    },
+    {
+        "langName": "Angielski",
+        "className": "Klasa 1",
+        "name": "Test z działu 1",
+        "code": "en-1-1-t",
+        "type": 2,
+        "value": {"Dzień dobry": "Good morning", "Długopis jest czarny": "Pen is black", "Ona jest szczęśliwa": "She is happy", "Gumka jest różowa": "Rubber is pink", "To jest zielone": "It is green", "Nazywam się": "My name is", "Oni są smutni": "They are sad", "Linijka jest brązowa": "Ruler is brown", "Wy jesteście wściekli": "You are angry", "Temperówka jest biała": "Pencil sharpener is white", "Ty jesteś przestraszony": "You are scared", "Piórnik jest fioletowy": "Pencil case is purple", "On jest znudzony": "He is bored", "Zeszyt jest niebieski": "Notebook is blue", "Wy jesteście szczęśliwi": "You are happy", "Ołówek jest szary": "Pencil is gray", "Ja jestem zmęczony": "I am tired", "Nożyczki są czerwone": "Scissors is red", "To jest żółte": "It is yellow", "Dowidzenia": "Goodbye"}
+    }
+]
